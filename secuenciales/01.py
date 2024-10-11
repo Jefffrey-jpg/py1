@@ -1,12 +1,12 @@
 import os
 os.system("cls")
 
-varones=int(input("Varones: "))
-mujeres=int(input("Mujeres: "))
+varones = int(input("Varones: "))
+mujeres = int(input("Mujeres: "))
 
-total=varones+mujeres
-pVarones=varones*100.0/total
-pMujeres=mujeres*100.0/total
+total = varones + mujeres
+pVarones = varones * 100.0 / total
+pMujeres = mujeres * 100.0 / total
 
 print(f"Porcentaje de varones: {pVarones:.2f}%")
 print(f"Porcentaje de mujeres: {pMujeres:.2f}%")
